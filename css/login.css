@@ -1,0 +1,46 @@
+body {
+  background: url(../img/new-background.jpg) top center / cover;
+  background-repeat: no-repeat;
+}
+
+/* For styling the active status of the login button */
+
+.active {
+  background: rgb(247, 60, 3);
+  border: 2px solid rgb(247, 60, 3);
+  color: #fff;
+  /* to avoid "clickability" */
+  pointer-events: none; 
+}
+
+.main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-content {
+  display: flex;
+  justify-content: space-around;
+  background: url(../img/bg.png) top center / cover;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 20px;
+  width: 80%;
+}
+
+.img img {
+  width: 40%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  display: block;
+  margin: 20px 0;
+  width: 250px;
+  padding: 10px;
+  
+}
